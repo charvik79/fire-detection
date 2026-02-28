@@ -71,7 +71,7 @@ function detectFire() {
         document.body.style.backgroundColor = "#550000";
         alarm.play();
     } else {
-        statusText.innerHTML = "✅ Area Safe";
+        statusText.innerHTML = "🔥 FIRE DETECTED!";
         document.body.style.backgroundColor = "black";
     }
 }
@@ -81,4 +81,5 @@ setInterval(detectFire, 1000);
 </script>
 
 </body>
+
 </html>
